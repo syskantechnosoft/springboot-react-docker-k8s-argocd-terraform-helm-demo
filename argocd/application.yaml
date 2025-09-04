@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: user-crud-app
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/your-github-username/your-repo-name
+    targetRevision: HEAD
+    path: helm
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

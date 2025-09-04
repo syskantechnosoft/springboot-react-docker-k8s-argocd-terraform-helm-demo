@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: your-dockerhub-username/user-crud-backend
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 8080
+
+springProfile: docker

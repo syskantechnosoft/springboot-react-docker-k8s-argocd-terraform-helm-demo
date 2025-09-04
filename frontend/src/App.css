@@ -1,0 +1,128 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-sort {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.search-sort input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-sort select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-sort button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-sort button:hover {
+  background-color: #0056b3;
+}
+
+.user-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.user-form input {
+  flex: 1;
+  min-width: 150px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-form button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: #218838;
+}
+
+.user-form button[type="button"] {
+  background-color: #6c757d;
+}
+
+.user-form button[type="button"]:hover {
+  background-color: #545b62;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.user-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.user-table button {
+  margin-right: 5px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-table button:first-child {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.user-table button:first-child:hover {
+  background-color: #e0a800;
+}
+
+.user-table button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.user-table button:last-child:hover {
+  background-color: #c82333;
+}

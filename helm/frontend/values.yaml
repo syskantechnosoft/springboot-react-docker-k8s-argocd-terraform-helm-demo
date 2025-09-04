@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: your-dockerhub-username/user-crud-frontend
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 3000
